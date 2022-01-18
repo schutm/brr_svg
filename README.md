@@ -11,7 +11,7 @@ Installation
 ------------
 
 ```
-esy add git://gitlab.com/schutm/brr_svg.git#<commit>
+esy add git+https://gitlab.com/schutm/brr_svg
 ```
 
 or any other method supported by [esy](https://esy.sh/docs/en/getting-started.html#adding-a-dependency).
