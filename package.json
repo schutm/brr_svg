@@ -1,0 +1,36 @@
+{
+  "name": "Brr_svg",
+  "version": "0.0.1",
+  "description": "Brr like/based DOM for SVG elements",
+  "keywords": [
+    "Brr",
+    "SVG"
+  ],
+  "homepage": "https://gitlab.com/schutm/brr_svg.git",
+  "bugs": "https://gitlab.com/schutm/brr_svg/issues",
+  "esy": {
+    "_build": "dune build --root .",
+    "build": "dune build -p #{self.name}"
+  },
+  "scripts": {
+    "doc": "esy dune build @doc",
+    "format": "dune build @fmt --auto-promote",
+    "mli": "esy ocaml-print-intf"
+  },
+
+  "dependencies": {
+    "ocaml": "^4.8.0",
+    "@opam/dune": "^2.9.1",
+    "@opam/brr": "^0.0.2"
+  },
+  "devDependencies": {
+    "@opam/merlin": "*",
+    "@opam/fmt": "*",
+    "@opam/ocaml-lsp-server": "*",
+    "@opam/ocaml-print-intf": "*",
+    "@opam/ocamlformat": "0.20.1",
+    "@opam/ocamlformat-rpc": "0.20.1"
+  },
+  "resolutions": {
+  }
+}
