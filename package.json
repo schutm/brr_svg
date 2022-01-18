@@ -1,6 +1,6 @@
 {
-  "name": "Brr_svg",
-  "version": "0.0.1",
+  "name": "brr_svg",
+  "version": "0.0.2",
   "description": "Brr like/based DOM for SVG elements",
   "keywords": [
     "Brr",
