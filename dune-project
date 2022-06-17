@@ -1,2 +1,21 @@
-(lang dune 2.9.1)
+(lang dune 3.0)
 (name brr_svg)
+(version 0.0.3)
+
+(authors     "Martin Schut <m.schut@42mice.com>")
+(maintainers "42mice team <team@42mice.com>")
+(homepage    "https://gitlab.com/schutm/brr_svg")
+(bug_reports "https://gitlab.com/schutm/brr_svg/issues")
+
+(generate_opam_files true)
+
+(package
+  (name        "brr_svg")
+  (synopsis    "Brr like/based DOM for SVG elements")
+  (description "Brr like/based DOM for SVG elements")
+
+  (depends
+    (ocaml (>= 4.13.1))
+    (brr (>= 0.0.3))
+
+    (dune (and :build (>= 3.0.2)))))
