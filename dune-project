@@ -1,9 +1,10 @@
 (lang dune 3.0)
 (name brr_svg)
-(version 0.0.3)
+(version 0.0.4)
 
-(authors     "Martin Schut <m.schut@42mice.com>")
-(maintainers "42mice team <team@42mice.com>")
+(license     "ISC")
+(authors     "Martin Schut <martin-opam@wommm.nl>")
+(maintainers "Martin Schut <martin-opam@wommm.nl>")
 (homepage    "https://gitlab.com/schutm/brr_svg")
 (bug_reports "https://gitlab.com/schutm/brr_svg/issues")
 
