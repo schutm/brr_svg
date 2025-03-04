@@ -5,9 +5,7 @@
 (license     "ISC")
 (authors     "Martin Schut <martin-opam@wommm.nl>")
 (maintainers "Martin Schut <martin-opam@wommm.nl>")
-(homepage    "https://gitlab.com/schutm/brr_svg")
-(bug_reports "https://gitlab.com/schutm/brr_svg/issues")
-
+(source      (gitlab schutm/brr_svg)
 (generate_opam_files true)
 
 (package
